@@ -1,5 +1,6 @@
 package seleniumScripts;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -22,6 +23,11 @@ public class GetMethods
 		
 		//getPageSource()
 		System.out.println("Page source - \n "+wd.getPageSource());
+		
+		//getText
+		System.out.println("Updated code1");
+		System.out.println("Updated code2");
+		System.out.println("Updated code3");
 		Thread.sleep(5000);
 		wd.close();
 	}
