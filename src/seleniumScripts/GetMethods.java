@@ -28,6 +28,10 @@ public class GetMethods
 		System.out.println("Updated code1");
 		System.out.println("Updated code2");
 		System.out.println("Updated code3");
+		
+		System.out.println("Updated code4");
+		System.out.println("Updated code5");
+		System.out.println("Updated code6");
 		Thread.sleep(5000);
 		wd.close();
 	}
